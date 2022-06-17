@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= title %></title>
+    <link rel="icon" sizes="200x200" href="images/webLogo.png">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="stylesheets/style.css">
+
+</head>
+<body>
+    <div id="toast">
+            
+    </div>
+    <!-- header section starts -->
+    <header>
+
+        <a href="/" class="logo"><span>Marvel</span>Fan</a>
+
+        <div id="menu" class="fas fa-bars"></div>
+        <nav class="navbar">
+            <ul>
+                <li><a class="active" href="#home">Trang chủ</a></li>
+                <li><a href="#gallery">Bộ sưu tập</a></li>
+                <li><a href="#about">Giới thiệu</a></li>
+                <li><a href="#movies">Phim</a></li>
+                <li><a href="#products">Sản phẩm</a></li>
+                <li><a href="/login" id="isLogTag">Đăng nhập</a></li>
+                <li><a href="/cart" title="Giỏ hàng" class="cart"><i class="fas fa-shopping-cart"></i><span></span></a></li>
+            </ul>
+        </nav>
+
+    </header>
+    <!-- header section ends -->
+
+    <!-- home section starts-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3>Vũ trụ Điện ảnh Marvel</h3>
+            <h1>Chào mừng các fan Marvel</h1>
+            <p>Trang web tổng hợp thông tin các siêu anh hùng Marvel, danh sách phim và 
+                bán sản phẩm lưu niệm</p>
+        </div>
+        <div class="image">
+            <img src="images/home-img.png" alt="">
+        </div>
+    </section>
+    <!-- home section ends-->
+
+    <!-- gallery section starts -->
+    <section class="gallery" id="gallery">
+        <h1 class="heading">Bộ sưu tập <span>Anh hùng</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/img1-min.png" alt="">
+                <div class="info">
+                    <h3>captain america</h3>
+                    <p>Vũ trụ Điện ảnh Marvel đã đạt nhiều thành công về mặt thương mại và nhìn chung nhận được nhiều đánh giá tích cực từ giới chuyên môn.</p>
+                    <a class="btn" href="#">Xem thêm</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img2-min.png" alt="">
+                <div class="info">
+                    <h3>captain america</h3>
+                    <p>Vũ trụ Điện ảnh Marvel đã đạt nhiều thành công về mặt thương mại và nhìn chung nhận được nhiều đánh giá tích cực từ giới chuyên môn.</p>
+                    <a class="btn" href="#">Xem thêm</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/img3-min.png" alt="">
+                <div class="info">
+                    <h3>captain america</h3>
+                    <p>Vũ trụ Điện ảnh Marvel đã đạt nhiều thành công về mặt thương mại và nhìn chung nhận được nhiều đánh giá tích cực từ giới chuyên môn.</p>
+                    <a class="btn" href="#">Xem thêm</a>
+                </div>
+            </div>
+        </div>
+        <div class="box-center">
+            <a href="#" class="btn center">Xem thêm</a>
+        </div>
+    </section>
+    <!-- gallery section ends -->
+
+    <!-- about section start -->
+    <section class="about" id="about">
+        <h1 class="heading"><span>giới thiệu</span> avengers</h1>
+        <div class="row">
+            <div class="image">
+                <img src="images/about-img-min.png" alt="">
+            </div>
+            <div class="content">
+                <h3>Biệt đội siêu anh hùng</h3>
+                <p>Tìm hiểu lịch sử hoạt động của biệt đội siêu anh hùng Avengers</p>
+                <p>Đội Avengers, cũng có thể được biết đến là các Anh hùng của New York, gồm các cá
+                 nhân xuất sắc với các siêu năng lực hay kỹ năng đặc biệt. Đội được thành lập với mục
+                  đích bảo vệ toàn thế giới chứ không riêng cho một quốc gia hay tổ chức nào trước các
+                   mối đe dọa từ cả trong lẫn ngoài hành tinh.</p>
+                <a href="#" class="btn">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- movies section starts -->
+    <section class="movies" id="movies">
+        <h1 class="heading">Phim <span>Marvel</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <img src="images/m1-min.jpg" alt="">
+                <div class="info">
+                    <h3>marvel avengers 2012</h3>
+                    <span>action, sci-fi, thriller, comedy</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Sau khi Captain America ngăn chặn tên Helmut Zemo, kẻ chủ mưu gây ra cuộc chiến 
+                    giữa haiphe, đội Avengers chính thức tan rã nhưng Captain America, Góa phụ đen và 
+                    Falcon vẫn tiếp tục hoạt động trong bóng tối.</p>
+                    <a href="#" class="btn">Xem phim</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/m2-min.jpg" alt="">
+                <div class="info">
+                    <h3>marvel avengers 2012</h3>
+                    <span>action, sci-fi, thriller, comedy</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Sau khi Captain America ngăn chặn tên Helmut Zemo, kẻ chủ mưu gây ra cuộc chiến 
+                    giữa haiphe, đội Avengers chính thức tan rã nhưng Captain America, Góa phụ đen và 
+                    Falcon vẫn tiếp tục hoạt động trong bóng tối.</p>
+                    <a href="#" class="btn">Xem phim</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/m3-min.jpg" alt="">
+                <div class="info">
+                    <h3>marvel avengers 2012</h3>
+                    <span>action, sci-fi, thriller, comedy</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Sau khi Captain America ngăn chặn tên Helmut Zemo, kẻ chủ mưu gây ra cuộc chiến 
+                    giữa haiphe, đội Avengers chính thức tan rã nhưng Captain America, Góa phụ đen và 
+                    Falcon vẫn tiếp tục hoạt động trong bóng tối.</p>
+                    <a href="#" class="btn">Xem phim</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="images/m3-min.jpg" alt="">
+                <div class="info">
+                    <h3>marvel avengers 2012</h3>
+                    <span>action, sci-fi, thriller, comedy</span>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>Sau khi Captain America ngăn chặn tên Helmut Zemo, kẻ chủ mưu gây ra cuộc chiến 
+                    giữa haiphe, đội Avengers chính thức tan rã nhưng Captain America, Góa phụ đen và 
+                    Falcon vẫn tiếp tục hoạt động trong bóng tối.</p>
+                    <a href="#" class="btn">Xem phim</a>
+                </div>
+            </div>
+        </div>
+        <div class="box-center">
+            <a href="/movies" class="btn center">Xem thêm</a>
+        </div>
+    </section>
+    <!-- movies section ends -->
+
+    <!-- product section starts -->
+    <section class="product" id="products">
+        <h1 class="heading">Sản phẩm <span>Marvel</span></h1>
+        <div class="box-container">
+            <div class="box">
+                <h3>Áo marvel</h3>
+                <img src="images/p1-min.png" alt="">
+                <!-- <img src="https://product.hstatic.net/1000132959/product/screenshot_47_cf4799d6627d4e9fb94e70a24d173cc8_1024x1024.jpg" alt=""> -->
+                <div class="price">230.000VNĐ</div>
+                <a href="#" class="btn add-cart">Thêm vào giỏ hàng</a>
+            </div>
+            <div class="box">
+                <h3>Ốp lưng avenger</h3>
+                <img src="images/p2-min.png" alt="">
+                <div class="price">230.000VNĐ</div>
+                <a href="#" class="btn add-cart">Thêm vào giỏ hàng</a>
+            </div>
+            <div class="box">
+                <h3>Móc khóa ironman</h3>
+                <img src="images/p3-min.png" alt="">
+                <div class="price">230.000VNĐ</div>
+                <a href="#" class="btn add-cart">Thêm vào giỏ hàng</a>
+            </div>
+            <div class="box">
+                <h3>Móc khóa ironman</h3>
+                <img src="images/p4-min.png" alt="">
+                <div class="price">230.000VNĐ</div>
+                <a href="#" class="btn add-cart">Thêm vào giỏ hàng</a>
+            </div>
+        </div>
+        <div class="box-center">
+            <a href="/shop" class="btn center">Xem thêm</a>
+        </div>
+    </section>
+    <!-- product section ends -->
+
+    <!-- js file link -->
+  <script src="javascripts/index.js"></script>
+  <script src="javascripts/toast.js"></script>
+<%- include("footer") %> 

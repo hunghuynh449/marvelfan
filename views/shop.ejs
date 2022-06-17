@@ -1,0 +1,65 @@
+<%- include("header") %>
+<!-- product section starts -->
+<div id="toast">
+            
+</div>
+<div class="loading-box">
+    <div class="container-loading">
+        <div class="dashed-loading"></div>
+    </div>
+</div>
+<section class="product" id="products">
+    <h1 class="heading">Sản phẩm <span>Marvel</span></h1>
+    <div class="filter-box">
+        <div class="search-box">
+            <input type="text" placeholder="Nhập tên sản phẩm" id="searchValue">
+        </div>
+        <div class="title-block">
+            <span class="title"><h1>Danh mục</h1></span>
+            <span class="title-box-filter">
+                <select name="" id="filter" onchange="productFilter(this.value)">
+        
+                </select>
+            </span>
+        </div>
+    </div>
+    <div class="box-container">
+        <!-- <div class="box">
+            <h3>Áo marvel</h3>
+            <img src="images/p1-min.png" alt="">
+            <div class="price">230.000VNĐ</div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        <div class="box">
+            <h3>Ốp lưng avenger</h3>
+            <img src="images/p2-min.png" alt="">
+            <div class="price">230.000VNĐ</div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        <div class="box">
+            <h3>Móc khóa ironman</h3>
+            <img src="images/p3-min.png" alt="">
+            <div class="price">230.000VNĐ</div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </div>
+        <div class="box">
+            <h3>Móc khóa ironman</h3>
+            <img src="images/p4-min.png" alt="">
+            <div class="price">230.000VNĐ</div>
+            <a href="#" class="btn">Thêm vào giỏ hàng</a>
+        </div> -->
+    </div>
+    <!-- <div class="box-center">
+        <a href="#" id="more" class="btn center">Tải thêm</a>
+    </div> -->
+</section>
+<!-- product section ends -->
+
+<!-- js file link -->
+<script src="javascripts/baseAPI.js"></script>
+<script src="javascripts/categoryService.js"></script>
+<script src="javascripts/productsService.js"></script>
+<script src="javascripts/index.js"></script>
+<script src="javascripts/shop.js"></script>
+<script src="javascripts/toast.js"></script>
+<%- include("footer") %> 

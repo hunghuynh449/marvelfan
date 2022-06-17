@@ -1,0 +1,212 @@
+{
+  "category": [
+    {
+      "id": 1,
+      "name": "Áo"
+    },
+    {
+      "id": 2,
+      "name": "Mô hình"
+    },
+    {
+      "id": 3,
+      "name": "Móc khóa"
+    },
+    {
+      "id": 4,
+      "name": "Mũ"
+    },
+    {
+      "id": 5,
+      "name": "Ví"
+    },
+    {
+      "id": 6,
+      "name": "Phụ kiện đặc biệt"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "idCate": 1,
+      "name": "Áo Marvel V1",
+      "price": 220000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/screenshot_45_0b0d71c26db24d3ea69251fd67a452ed_1024x1024.jpg"
+    },
+    {
+      "id": 2,
+      "idCate": 1,
+      "name": "Áo Marvel V2",
+      "price": 170000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/screenshot_48_2b095644555d426f8d8c6184a249bb78_1024x1024.jpg"
+    },
+    {
+      "id": 3,
+      "idCate": 1,
+      "name": "Áo Marvel V3",
+      "price": 170000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/screenshot_47_cf4799d6627d4e9fb94e70a24d173cc8_1024x1024.jpg"
+    },
+    {
+      "id": 4,
+      "idCate": 1,
+      "name": "Áo Khoác SpiderMan",
+      "price": 650000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/screenshot_2_a38a4c27d10b4ef88e5301d1622c2ab7_1024x1024.jpg"
+    },
+    {
+      "id": 5,
+      "idCate": 1,
+      "name": "Áo Khoác SpiderMan Miles",
+      "price": 650000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/screenshot_11_0d5fdac3c3ed4840bc3aabe91be6a044_1024x1024.jpg"
+    },
+    {
+      "id": 6,
+      "idCate": 2,
+      "name": "Mô hình Iron Man MK7 30 CM",
+      "price": 1100000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/screenshot_45_15eedfd25e4f4e77a9b6b12b0ec97eb6_1024x1024.jpg"
+    },
+    {
+      "id": 7,
+      "idCate": 2,
+      "name": "Mô hình Hulkbuster có đèn",
+      "price": 850000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/o1cn01ar6g8v1suotdmyd9v___265555827.jpg_400x400_7cb8e2686b8944a5926240e46b5eebec_1024x1024.jpg"
+    },
+    {
+      "id": 8,
+      "idCate": 3,
+      "name": "Móc khóa Hulkbuster",
+      "price": 150000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0514_moc_khoa_cosbaby__4__733741263c264feb924d807846968d05_1024x1024.jpg"
+    },
+    {
+      "id": 9,
+      "idCate": 3,
+      "name": "Móc khóa Ironman V1",
+      "price": 55000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0211_moc_khoa_iron_man_bong_1024x1024.jpg"
+    },
+    {
+      "id": 10,
+      "idCate": 3,
+      "name": "Móc khóa Ironman V2",
+      "price": 55000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0211_moc_khoa_iron_man_1024x1024.jpg"
+    },
+    {
+      "id": 11,
+      "idCate": 3,
+      "name": "Móc khóa Spiderman",
+      "price": 55000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0211_moc_khoa_spider_man_den_1024x1024.jpg"
+    },
+    {
+      "id": 12,
+      "idCate": 4,
+      "name": "Mũ Marvel đen",
+      "price": 170000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0412_ao_linh_4_51ea88b361c140f58375743c78dfd280_1024x1024.jpg"
+    },
+    {
+      "id": 13,
+      "idCate": 5,
+      "name": "Ví vô cưc",
+      "price": 150000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0226_vi_4_1_77656c2622814e209da1cbef3f10522a_1024x1024.jpg"
+    },
+    {
+      "id": 14,
+      "idCate": 5,
+      "name": "Ví Captain",
+      "price": 150000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0226_vi_1_1_c3403e09f527450e95318ffade58e570_1024x1024.jpg"
+    },
+    {
+      "id": 15,
+      "idCate": 5,
+      "name": "Ví Ironman",
+      "price": 150000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0504_vi_1_674623cf41274bb98e47e633e3e66222_1024x1024.jpg"
+    },
+    {
+      "id": 16,
+      "idCate": 5,
+      "name": "Ví Deadpool V4",
+      "price": 150000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/1120_1__2__1024x1024.jpg"
+    },
+    {
+      "id": 17,
+      "idCate": 6,
+      "name": "Gạt tàn Megatron",
+      "price": 360000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0122_5__2__1024x1024.jpg"
+    },
+    {
+      "id": 18,
+      "idCate": 6,
+      "name": "Gạt tàn Megatron V2",
+      "price": 450000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/tb2_5cguk9wbunjsspexxaz5vxa___787184263_1024x1024.jpg"
+    },
+    {
+      "id": 19,
+      "idCate": 6,
+      "name": "Chậu cây Groot",
+      "price": 170000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0105_3_1_8cd878fea209434babc444120f2a0224_1024x1024.jpg"
+    },
+    {
+      "id": 20,
+      "idCate": 6,
+      "name": "Đèn ngủ búa Thor",
+      "price": 450000,
+      "inCart": 0,
+      "urlImg": "https://product.hstatic.net/1000132959/product/0112_2__1__1024x1024.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "hunghuynh2606@gmail.com",
+      "password": "123",
+      "phone": "0937231553",
+      "address": "464/15a12 đường TTH07 phường Tân Thới Hiệp Quận 12 TP.HCM",
+      "point": 0,
+      "role": 1,
+      "status": 0
+    },
+    {
+      "id": 2,
+      "email": "hunghuynh@gmail.com",
+      "password": "123",
+      "phone": "0999999999",
+      "address": "464/15a12 đường TTH07 phường Tân Thới Hiệp Quận 12 TP.HCM",
+      "point": 0,
+      "role": 0,
+      "status": 0
+    }
+  ]
+}

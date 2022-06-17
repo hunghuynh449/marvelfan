@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="icon" sizes="200x200" href="/images/webLogo.png">
+    <!-- ionicons link -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    
+    <!-- css file link -->
+    <link rel="stylesheet" href="/stylesheets/admin.css">
+    
+</head>
+<body>
+    <input type="checkbox" id="nav-toggle">
+    <!-- sidebar starts -->
+    <div class="sidebar">
+        <div class="sidebar-brand">
+            <img src="/images/webLogo.png" width="40px" height="45px" alt="">
+            <h1>
+                <span>MarvelFan</span>
+            </h1>
+        </div>
+        <div class="sidebar-menu">
+            <ul>
+                <li>
+                    <!-- add active to a element -->
+                    <a href="/admin"><span><ion-icon name="copy-outline"></ion-icon></span>
+                    <span>Loại sản phẩm</span></a>
+                </li>
+                <li>
+                    <a href="/admin/products" class="active"><span><ion-icon name="book-outline"></ion-icon></span>
+                    <span>Sản phẩm</span></a>
+                </li>
+                <li>
+                    <a href="#"><span><ion-icon name="people-outline"></ion-icon></span>
+                    <span>Khách hàng</span></a>
+                </li>
+                <li>
+                    <a href="#"><span><ion-icon name="stats-chart-outline"></ion-icon></span>
+                    <span>Thống kê</span></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- sidebar ends -->
+
+    <!-- main starts -->
+    <div class="main-content">
+        <header>
+            <h1>
+                <label for="nav-toggle">
+                    <span class="fas fa-bars"></span>
+                </label>
+                Dashboard
+            </h1>
+            <div class="search-wrapper">
+                <span class="las la-search"></span>
+                <input type="search" placeholder="Tìm kiếm">
+            </div>
+            <div class="user-wrapper">
+                <img src="/images/tiger.jpg" alt="">
+                <div>
+                    <h4>Huỳnh Quốc Hưng</h4>
+                    <small>Admin</small>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="cards">
+                <div class="card-single">
+                    <div>
+                        <h1>54</h1>
+                        <span>Người dùng</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>3</h1>
+                        <span>Loại sản phẩm</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>9</h1>
+                        <span>Sản phẩm</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-users"></span>
+                    </div>
+                </div>
+                <div class="card-single">
+                    <div>
+                        <h1>200</h1>
+                        <span>Lượt mua</span>
+                    </div>
+                    <div>
+                        <span class="fas fa-users"></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="recent-grid-full">
+                <div class="container">
+                    <h1 class="heading"> Thêm <span>Sản phẩm</span></h1>
+                    <form class="row g-3 needs-validation" enctype="multipart/form-data">
+                        <div class="col-md-6">
+                            <label for="name" class="form-label">Tên sản phẩm</label>
+                            <input type="text" class="form-control" name="name" id="name" value="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="price" class="form-label">Giá tiền</label>
+                            <input type="text" class="form-control" name="price" id="price" value="">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="img" class="form-label">Hình ảnh</label>
+                            <input type="file" name="img" class="form-control" id="img">
+                        </div>
+                        <div class="col-md-6">
+                            <label for="idCate" class="form-label">Loại sản phẩm</label>
+                            <select class="form-control" name="idCate" id="idCate">
+                                <option value="0" disabled selected>Chọn loại sản phẩm</option>
+                            </select>
+                        </div>
+                        <div class="col-md-12">
+                            <button class="btn btnAdd">Thêm sản phẩm</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </div>
+    <!-- main ends -->
+
+    <script src="/javascripts/baseAPI.js"></script>
+    <script src="/javascripts/categoryService.js"></script>
+    <script src="/javascripts/productsService.js"></script>
+    <script src="/javascripts/productAdd.js"></script>
+
+</body>
+</html>
